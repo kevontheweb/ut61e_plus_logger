@@ -1,0 +1,11 @@
+[package]
+name = "ut61e_plus_logger"
+description = "⚡ Linux data logger for the Uni-T UT61E+ multimeter, written in rust 🦀 "
+author = "kevontheweb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hidapi = "2"
+clap = { version = "4", features = ["derive"] }
+colored = "2"
