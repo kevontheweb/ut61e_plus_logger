@@ -9,3 +9,6 @@ edition = "2024"
 hidapi = "2"
 clap = { version = "4", features = ["derive"] }
 colored = "2"
+eframe = "0.32.0"
+egui_plot = "0.33.0"
+rand = "0.9.1"
